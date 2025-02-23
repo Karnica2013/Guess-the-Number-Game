@@ -14,6 +14,14 @@ function checkAnswer(){
    else{
     document.getElementById("p2").innerHTML="  <p>Lower! Try Again</p>"
    }
+   if(!userNumber.value){
+    alert(
+        "Number cannot be empty!"
+    )
+    return
+
+
+   }
    console.log(rn)
 }
 function resetGame(){
