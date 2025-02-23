@@ -19,8 +19,6 @@ function checkAnswer(){
         "Number cannot be empty!"
     )
     return
-
-
    }
    console.log(rn)
 }
